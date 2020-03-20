@@ -1,0 +1,62 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("./tech.jpg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Odibee Sans", cursive;
+}
+
+.counterName {
+    color: rgba(251, 255, 0, 0.842);
+}
+
+.counter-box {
+    flex: 0 0 70%;
+    text-align: center;
+    border: 3px solid rgba(23, 78, 78, 0.199);
+    padding: 1rem;
+    box-shadow: 5px 5px 10px 10px rgba(27, 4, 4, 0.582);
+}
+
+.counter {
+    color: white;
+    font-size: 6rem;
+    text-shadow: 5px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    background: blanchedalmond;
+    border-radius: 5%;
+    font-size: 1.2rem;
+    margin: 0.1rem 0.1rem;
+    border: none;
+    box-shadow: 2px 3px rgba(34, 1, 1, 0.541);
+    min-width: 25px;
+    outline: none;
+}
+
+.btn:active {
+    box-shadow: none;
+}
+
+#lowerCountBtn:hover {
+    background-color: rgba(255, 1, 1, 0.548);
+    color: rgb(255, 250, 250);
+}
+
+#lowerCountBtn:active {
+    background-color: rgba(255, 1, 1, 0.9);
+}
+
+#addCountBtn:hover {
+    background-color: rgba(26, 207, 105, 0.541);
+    color: snow;
+}
+
+#addCountBtn:active {
+    background-color: rgba(26, 207, 105, 0.9);
+}
